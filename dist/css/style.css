@@ -163,6 +163,8 @@ header {
 .tags {
     display: flex;
     gap: 10px;
+    width: 50%;
+    flex-wrap: wrap;
 }
 
 .tags span {
@@ -177,6 +179,7 @@ header {
     white-space: nowrap;
     border-radius: 5px;
     overflow: hidden;
+    width: 40%;
 }
 
 .level .number {
