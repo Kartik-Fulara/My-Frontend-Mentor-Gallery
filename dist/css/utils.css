@@ -1,0 +1,116 @@
+:root {
+    --moonstone-blue: rgb(106, 190, 205);
+    /* newbie html */
+    --android-green: rgb(170, 215, 66);
+    /* junior api */
+    --ucla-gold: rgb(241, 182, 4);
+    /* intermediate scss */
+    --lapis-lazuli: rgb(62, 84, 163);
+    /* css tailwindcss ts */
+    --pale-red-violet: rgb(207, 99, 144);
+    /* js bootstrap */
+    --cadmium-orange: #f48925;
+    /* advanced */
+}
+
+.html,
+.newbie {
+    color: var(--moonstone-blue);
+}
+
+.api,
+.junior {
+    color: var(--android-green);
+}
+
+.scss,
+.intermediate {
+    color: var(--ucla-gold);
+}
+
+.css,
+.tailwindcss,
+.ts {
+    color: var(--lapis-lazuli);
+}
+
+.js,
+.bootstrap {
+    color: var(--pale-red-violet);
+}
+
+.advanced {
+    color: var(--cadmium-orange);
+}
+
+.bg-html,
+.bg-newbie {
+    background-color: var(--moonstone-blue);
+}
+
+.bg-api,
+.bg-junior {
+    background-color: var(--android-green);
+}
+
+.bg-scss,
+.bg-intermediate {
+    background-color: var(--ucla-gold);
+}
+
+.bg-css,
+.bg-tailwindcss,
+.bg-ts {
+    background-color: var(--lapis-lazuli);
+}
+
+.bg-js,
+.bg-bootstrap {
+    background-color: var(--pale-red-violet);
+}
+
+.bg-advanced {
+    background-color: var(--cadmium-orange);
+}
+
+.border-1px-html,
+.border-1px-newbie {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--moonstone-blue);
+}
+
+.border-1px-api,
+.border-1px-junior {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--android-green);
+}
+
+.border-1px-scss,
+.border-1px-intermediate {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--ucla-gold);
+}
+
+.border-1px-css,
+.border-1px-tailwindcss,
+.border-1px-ts {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--lapis-lazuli);
+}
+
+.border-1px-js,
+.border-1px-bootstrap {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--pale-red-violet);
+}
+
+.border-1px-advanced {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--cadmium-orange);
+}

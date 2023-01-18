@@ -1,0 +1,135 @@
+    @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap");
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        position: relative;
+        font-family: "Red Hat Display", sans-serif;
+        background-image: url("../../assets/images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .IH {
+        width: 384px;
+        height: 560px;
+        border-radius: 3%;
+        background-color: white;
+    }
+
+    .IH>img {
+        width: 384px;
+        height: 188px;
+        border-radius: 3% 3% 0 0;
+        object-fit: contain;
+    }
+
+    .IH h2 {
+        margin: 7% 5% 3% 5%;
+        text-align: center;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+    .music_btn {
+        display: flex;
+        text-align: center;
+    }
+
+    .IH p {
+        text-align: center;
+        margin: 0 16px 0 16px;
+        color: hsl(224, 23%, 55%);
+        font-size: 16px;
+    }
+
+    .music_btn {
+        width: 320px;
+        padding: 16px;
+        border-radius: 12px;
+        margin: 24px 0rem 0rem 32px;
+        background-color: hsl(225, 100%, 98%);
+        justify-content: space-between;
+    }
+
+    .music_btn .a {
+        margin-top: 12px;
+        color: hsl(245, 75%, 52%);
+        font-size: small;
+    }
+
+    .AP .txt {
+        margin-left: -40px;
+    }
+
+    .AP .cost {
+        color: hsl(224, 23%, 55%);
+        margin-left: -3rem;
+    }
+
+    .music_btn a {
+        display: inline-block;
+        text-align: right;
+    }
+
+    .btns {
+        display: block;
+        text-align: center;
+    }
+
+    .ptp {
+        padding: 16px 64px 16px 64px;
+        font-size: 14px;
+        text-decoration: none;
+        background-color: hsl(245, 75%, 52%);
+        margin: 0 32px 0 32px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 8px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .ptp a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .co {
+        margin-top: 12px;
+    }
+
+    .co a {
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+        font-size: small;
+    }
+
+    .music_btn .a:hover {
+        text-decoration: none;
+        color: hsl(266, 23%, 55%);
+    }
+
+    .ptp:hover {
+        background-color: hsl(245, 83%, 68%);
+    }
+
+    .co a:hover {
+        color: black;
+    }

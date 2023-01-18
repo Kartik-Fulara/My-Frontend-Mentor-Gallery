@@ -1,0 +1,105 @@
+    <div class="w-100 d-flex container justify-content-center align-items-center">
+        <div class="row w-100">
+          <div
+            class="bg-white col-12  d-flex flex-column gap-2 justify-content-center align-items-center pos-relative pad-4  rounded-top rounded-bottom gap-5">
+            <div class="w-100 ">
+              <div class="d-flex h-100 justify-content-start align-items-center gap-7 flex-column flex-lg-row">
+                <div class="d-flex justify-content-center  align-items-lg-start  align-items-center flex-column  w-fit">
+                  <div class="clr-black font-weight-700 h2">$89,914</div>
+                  <div class="clr-dark-gray h5">of $100,000 backed</div>
+                </div>
+                <div class="hei-lg-4r hei-2px wid-20r bgclr-dark-gray wid-lg-2px opacity-08"></div>
+                <div
+                  class="d-flex justify-content-center  align-items-lg-start  align-items-center  flex-column  w-fit">
+                  <div class="clr-black font-weight-700 h2">5,007</div>
+                  <div class="clr-dark-gray h5">total backers</div>
+                </div>
+                <div class="hei-lg-4r hei-2px wid-20r bgclr-dark-gray wid-lg-2px opacity-08"></div>
+                <div
+                  class="d-flex justify-content-center  align-items-lg-start  align-items-center  flex-column  w-fit">
+                  <div class="clr-black font-weight-700 h2">56</div>
+                  <div class="clr-dark-gray h5">days left</div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100">
+              <div class="progress">
+                <div class="progress-bar bgclr-moderate-cyan border-radius-17" role="progressbar" style="width: 75%"
+                  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100 d-flex container justify-content-center align-items-center">
+        <div class="row w-100">
+          <div class="pad-4 d-flex flex-column justify-content-start align-items-start gap-3 bg-white">
+            <span class="h4 font-weight-700 clr-back">About this project</span>
+            <p class="clr-dark-gray">The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that
+              elevates your screen
+              to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve
+              your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
+            </p>
+            <p class="clr-dark-gray">Featuring artisan craftsmanship, the simplicity of design creates extra desk space
+              below your computer
+              to allow notepads, pens, and USB sticks to be stored under the stand.
+            </p>
+
+            <div class="w-100 d-flex flex-column gap-3">
+              <div class="card padTop-4 padBottom-4 pl-4 pr-4 rounded-top rounded-bottom gap-2">
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                  <span class="font-weight-700 text-black h3">Bamboo Stand</span>
+                  <span class="font-weight-500 clr-moderate-cyan h5">Pledge $25 or more</span>
+                </div>
+                <p class="clr-dark-gray ">You get an ergonomic stand made of natural bamboo. You've helped us launch our
+                  promotional campaign, and
+                  you’ll be added to a special Backer member list.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-center align-items-center wid-fit gap-1">
+                    <span class="font-weight-700 h1 text-black">101</span>
+                    <span class="clr-dark-gray pb-2">left</span>
+                  </div>
+                  <button class="bgclr-dark-cyan-hover text-white btn bgclr-moderate-cyan border-radius-20 py-3 px-5">
+                    Select Reward</button>
+                </div>
+              </div>
+              <div class="card padTop-4 padBottom-4 pl-4 pr-4 rounded-top rounded-bottom gap-2">
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                  <span class="font-weight-700 text-black h3">Bamboo Stand</span>
+                  <span class="font-weight-500 clr-moderate-cyan h5">Pledge $25 or more</span>
+                </div>
+                <p class="clr-dark-gray ">You get an ergonomic stand made of natural bamboo. You've helped us launch our
+                  promotional campaign, and
+                  you’ll be added to a special Backer member list.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-center align-items-center wid-fit gap-1">
+                    <span class="font-weight-700 h1 text-black">101</span>
+                    <span class="clr-dark-gray pb-2">left</span>
+                  </div>
+                  <button class="bgclr-dark-cyan-hover text-white btn bgclr-moderate-cyan border-radius-20 py-3 px-5">
+                    Select Reward</button>
+                </div>
+              </div>
+              <div class="card padTop-4 padBottom-4 pl-4 pr-4 rounded-top rounded-bottom gap-2  opacity-05">
+                <div class="w-100 d-flex justify-content-between align-items-center">
+                  <span class="font-weight-700 text-black h3">Mahogany Special Edition</span>
+                  <span class="font-weight-500 clr-moderate-cyan h5">Pledge $200 or more</span>
+                </div>
+                <p class="clr-dark-gray ">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal
+                  thank you. You’ll be added
+                  to our Backer member list. Shipping is included.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex justify-content-center align-items-center wid-fit gap-1">
+                    <span class="font-weight-700 h1 text-black">0</span>
+                    <span class="clr-dark-gray pb-2">left</span>
+                  </div>
+                  <button disabled class="  text-white btn bgclr-dark-gray border-radius-20 py-3 px-5">
+                    Out of Stock</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
