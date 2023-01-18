@@ -1,7 +1,7 @@
 const data = [{
     "id": 1,
     "name": "Order summary component",
-    "image": "order-summary-component/assets/design/desktop-preview.jpg",
+    "image": "assets/design/desktop-preview.jpg",
     "link": "order-summary-component/",
     "tags": [
         {
@@ -25,7 +25,7 @@ const data = [{
 }, {
     "id": 2,
     "name": "Crowdfunding product page",
-    "image": "crowdfunding-product-page/assets/design/desktop-preview.jpg",
+    "image": "assets/design/desktop-preview.jpg",
     "link": "crowdfunding-product-page/",
     "tags": [
         {
