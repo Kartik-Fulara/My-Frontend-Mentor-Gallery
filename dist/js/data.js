@@ -1,7 +1,7 @@
 const data = [{
     "id": 1,
     "name": "Order summary component",
-    "image": "/assets/images/order-summary.jpg",
+    "image": "assets/images/order-summary.jpg",
     "link": "order-summary-component/",
     "tags": [
         {
