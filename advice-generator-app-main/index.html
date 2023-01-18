@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dist/css/style.css">
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+</head>
+
+<body class="bg-Dark-Blue h-screen w-screen flex justify-center items-center">
+  <div
+    class="p-10 quotes-container flex-col gap-5 sm:gap-10 relative w-[90%] sm:max-w-[33rem] bg-Dark-Grayish-Blue h-[20rem] rounded-[15px] flex justify-center items-center ">
+
+    <div class="tracking-[0.3rem] text-xs text-Neon-Green">
+      ADVICE #<span id="advice_id"></span>
+    </div>
+
+    <p id="advice_data" class="text-center text-Light-Cyan font-extrabold text-xl">
+    </p>
+
+    <img src="assets/images/pattern-divider-desktop.svg" class="hidden sm:block w-full" alt="" />
+    <img src="assets/images/pattern-divider-mobile.svg" class="w-full block sm:hidden" alt="" />
+    <div
+      onclick="gettingAdvice()"
+      class="cursor-pointer hover:shadow-[0px_0px_39px_-2px] p-4 hover:shadow-Neon-Green absolute bg-Neon-Green rounded-full bottom-[-25px] flex justify-center items-center h-[3.5rem] w-[3.5rem] ">
+      <img src="assets/images/icon-dice.svg" id="dice" class="h-full w-full" alt="">
+      <img src="assets/images/Rolling-1s-200px.svg" id="loading" class="hidden h-full w-full" alt="">
+    </div>
+  </div>
+
+  <script src="dist/js/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

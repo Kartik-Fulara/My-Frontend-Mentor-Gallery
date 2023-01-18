@@ -42,7 +42,7 @@ const data = [{
         {
             "name": "SCSS",
             "cssClass": "scss",
-        },{
+        }, {
             "name": "BOOTSTRAP",
             "cssClass": "bootstrap",
         },
@@ -56,4 +56,38 @@ const data = [{
         "text": "Junior",
     }],
     "description": "This challenge will test both your layout and state management skills. As visitors make pledges, your goal is to keep track of the changes."
+}, {
+    "id": 3,
+    "name": "Advice generator app",
+    "image": "assets/images/advice-generator.jpg",
+    "link": "advice-generator-app-main/",
+    "tags": [
+        {
+            "name": "HTML",
+            "cssClass": "html",
+        },
+        {
+            "name": "CSS",
+            "cssClass": "css",
+        }, {
+            "name": "JS",
+            "cssClass": "js",
+        },
+        {
+            "name": "API",
+            "cssClass": "api",
+        }, {
+            "name": "TAILWINDCSS",
+            "cssClass": "tailwindcss",
+        },
+    ],
+    "levelCss": "border-1px-junior",
+    "levelInfo": [{
+        "cssClass": "number bg-junior",
+        "text": "2"
+    }, {
+        "cssClass": "text junior",
+        "text": "Junior",
+    }],
+    "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice."
 }];
