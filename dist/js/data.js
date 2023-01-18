@@ -90,4 +90,33 @@ const data = [{
         "text": "Junior",
     }],
     "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice."
+},
+{
+    "id": 4,
+    "name": "Interactive Rating Component",
+    "image": "assets/images/interactive-rating.jpg",
+    "link": "interactive-rating-component-main/",
+    "tags": [
+        {
+            "name": "HTML",
+            "cssClass": "html",
+        },
+        {
+            "name": "CSS",
+            "cssClass": "css",
+        },
+        {
+            "name": "JS",
+            "cssClass": "js",
+        },
+    ],
+    "levelCss": "border-1px-newbie",
+    "levelInfo": [{
+        "cssClass": "number bg-newbie",
+        "text": "1"
+    }, {
+        "cssClass": "text newbie",
+        "text": "newbie",
+    }],
+    "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
 }];
