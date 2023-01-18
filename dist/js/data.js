@@ -39,6 +39,13 @@ const data = [{
             "name": "JS",
             "cssClass": "js",
         },
+        {
+            "name": "SCSS",
+            "cssClass": "scss",
+        },{
+            "name": "BOOTSTRAP",
+            "cssClass": "bootstrap",
+        },
     ],
     "levelCss": "border-1px-junior",
     "levelInfo": [{
