@@ -1,7 +1,7 @@
 const data = [{
     "id": 1,
     "name": "Order summary component",
-    "image": "/order-summary-component/assets/design/desktop-preview.jpg",
+    "image": "order-summary-component/assets/design/desktop-preview.jpg",
     "link": "order-summary-component/",
     "tags": [
         {
@@ -25,7 +25,7 @@ const data = [{
 }, {
     "id": 2,
     "name": "Crowdfunding product page",
-    "image": "/crowdfunding-product-page/assets/design/desktop-preview.jpg",
+    "image": "crowdfunding-product-page/assets/design/desktop-preview.jpg",
     "link": "crowdfunding-product-page/",
     "tags": [
         {
@@ -48,5 +48,5 @@ const data = [{
         "cssClass": "text junior",
         "text": "Junior",
     }],
-    "description": "A perfect project for newbies who are starting to build confidence with layouts!"
+    "description": "This challenge will test both your layout and state management skills. As visitors make pledges, your goal is to keep track of the changes."
 }];
