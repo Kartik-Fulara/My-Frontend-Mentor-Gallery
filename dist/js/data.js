@@ -119,4 +119,34 @@ const data = [{
         "text": "newbie",
     }],
     "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
+}, {
+    "id": 4,
+    "name": "Expenses chart component",
+    "image": "assets/images/expense-chart.jpg",
+    "link": "expenses-chart-component-main/",
+    "tags": [
+        {
+            "name": "HTML",
+            "cssClass": "html",
+        },
+        {
+            "name": "CSS",
+            "cssClass": "css",
+        }, {
+            "name": "JS",
+            "cssClass": "js",
+        }, {
+            "name": "SCSS",
+            "cssClass": "scss",
+        },
+    ],
+    "levelCss": "border-1px-junior",
+    "levelInfo": [{
+        "cssClass": "number bg-junior",
+        "text": "2"
+    }, {
+        "cssClass": "text junior",
+        "text": "Junior",
+    }],
+    "description": "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose."
 }];
