@@ -149,4 +149,38 @@ const data = [{
         "text": "Junior",
     }],
     "description": "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose."
+}, {
+    "id": 6,
+    "name": "Intro section with dropdown navigation",
+    "image": "assets/images/intro-section-with-dropdown-navigation.jpg",
+    "link": "intro-section-with-dropdown-navigation-main/",
+    "tags": [
+        {
+            "name": "HTML",
+            "cssClass": "html",
+        },
+        {
+            "name": "CSS",
+            "cssClass": "css",
+        }, {
+            "name": "JS",
+            "cssClass": "js",
+        }, {
+            "name": "SCSS",
+            "cssClass": "scss",
+        },
+        {
+            "name": "BOOTSTRAP",
+            "cssClass": "bootstrap",
+        },
+    ],
+    "levelCss": "border-1px-junior",
+    "levelInfo": [{
+        "cssClass": "number bg-junior",
+        "text": "2"
+    }, {
+        "cssClass": "text junior",
+        "text": "Junior",
+    }],
+    "description": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges."
 }];

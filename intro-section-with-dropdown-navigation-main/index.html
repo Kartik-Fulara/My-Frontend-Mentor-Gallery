@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dist/css/style.min.css" />
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="dist/css/bootstrap-utilities.min.css" />
+  <link rel="stylesheet" href="dist/css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="dist/css/bootstrap-grid.min.css" />
+
+</head>
+
+<body>
+
+  <main class="w-100 h-100">
+
+    <section class="offcanvas p-3 d-lg-none offcanvas-end" tabindex="-1" id="sidebar"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header d-flex justify-content-end align-items-center">
+
+        <button type="button" class="float-end" data-bs-dismiss="offcanvas" aria-label="Close">
+          <img src="images/icon-close-menu.svg" alt="">
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled  flex-column gap-3 d-flex justify-content-start align-items-start">
+          <li class="collapse-container w-100">
+            <a class=" d-flex justify-content-start align-items-center gap-2 color-medium-gray color-almost-black-hover"
+              data-bs-toggle="collapse" href="#feature-collapse" role="button" aria-expanded="false"
+              aria-controls="feature-collapse">
+              Features
+              <img src="images/icon-arrow-down.svg" class="dropdown-icon-down" alt="" />
+            </a>
+
+            <div class="collapse" id="feature-collapse">
+              <ul class="my-4 collapse-conten feature d-flex flex-column gap-3">
+                <li class="">
+                  <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                    <img src="images/icon-todo.svg" alt="">
+                    <span>
+                      Todo List
+                    </span>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                    <img src="images/icon-calendar.svg" alt="">
+                    <span>
+                      Calendar
+                    </span>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                    <img src="images/icon-reminders.svg" alt="">
+                    <span>
+                      Reminders
+                    </span>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                    <img src="images/icon-planning.svg" alt="">
+                    <span>
+                      Planning
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="collapse-container w-100">
+            <a class=" d-flex justify-content-start align-items-center gap-2 color-medium-gray color-almost-black-hover"
+              data-bs-toggle="collapse" href="#company-collapse" role="button" aria-expanded="false"
+              aria-controls="company-collapse">
+              Company
+              <img src="images/icon-arrow-down.svg" class="dropdown-icon-down" alt="" />
+            </a>
+
+            <div class="collapse" id="company-collapse">
+              <ul class="my-4 collapse-conten feature d-flex flex-column gap-3">
+                <li class="color-medium-gray color-almost-black-hover">
+                  History
+                </li>
+                <li class="color-medium-gray color-almost-black-hover">
+                  Our Team
+                </li>
+                <li class="color-medium-gray color-almost-black-hover">
+                  Blog
+                </li>
+              </ul>
+            </div>
+          </li>
+
+
+          <li class="">
+            <a class="color-medium-gray color-almost-black-hover" aria-current="page" href="#">Careers</a>
+          </li>
+
+          <li class="">
+            <a class="color-medium-gray color-almost-black-hover" aria-current="page" href="#">About</a>
+          </li>
+
+        </ul>
+        <div class=" w-100 flex-column my-3 d-flex gap-2 align-items-center justify-content-center">
+          <a class="color-medium-gray w-100  d-flex justify-content-center align-items-center color-almost-black-hover"
+            href="#">Login</a>
+          <button type="button"
+            class="px-3 d-flex w-100 color-medium-gray color-almost-black-hover justify-content-center align-items-center bgC-transparent bgC-transparent-hover btn btn-outline-primary border-1px-solid-medium-gray border-1px-solid-almost-black-hover radius-10">Register</button>
+
+        </div>
+      </div>
+    </section>
+
+    <header class="pos-lg-fixed pos-relative top-0 start-0 bgC-almost-white z-100 w-100">
+      <div class="container-fluid">
+        <div class="row w-100">
+          <div class="col-12 px-5 py-3 d-flex justify-content-between align-items-center">
+            <div class="right-navbar d-flex justify-content-center align-items-center gap-5">
+              <div class="logo">
+                <img src="images/logo.svg" alt="snap">
+              </div>
+              <ul class="list-unstyled d-lg-flex d-none gap-4 justify-content-center align-items-center">
+
+                <li class="dropdown-container py-4">
+                  <a class="dropdown-btn d-flex justify-content-center align-items-center gap-2 color-medium-gray color-almost-black-hover"
+                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Features
+                    <img src="images/icon-arrow-down.svg" class="dropdown-icon-down" alt="" />
+                  </a>
+                  <ul class="dropdown-content feature d-flex flex-column gap-2">
+                    <li class="">
+                      <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                        <img src="images/icon-todo.svg" alt="">
+                        <span>
+                          Todo List
+                        </span>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                        <img src="images/icon-calendar.svg" alt="">
+                        <span>
+                          Calendar
+                        </span>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                        <img src="images/icon-reminders.svg" alt="">
+                        <span>
+                          Reminders
+                        </span>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a class="d-flex gap-3 align-items-center color-medium-gray color-almost-black-hover" href="#">
+                        <img src="images/icon-planning.svg" alt="">
+                        <span>
+                          Planning
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li class="dropdown-container py-4">
+                  <a class="dropdown-btn d-flex justify-content-center align-items-center gap-2 color-medium-gray color-almost-black-hover"
+                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Company
+                    <img src="images/icon-arrow-down.svg" class="dropdown-icon-down" alt="" />
+                  </a>
+                  <ul class="dropdown-content company d-flex flex-column gap-2">
+                    <li class="color-medium-gray color-almost-black-hover">
+                      History
+                    </li>
+                    <li class="color-medium-gray color-almost-black-hover">
+                      Our Team
+                    </li>
+                    <li class="color-medium-gray color-almost-black-hover">
+                      Blog
+                    </li>
+                  </ul>
+                </li>
+                </li>
+
+                <li class="py-4">
+                  <a class="color-medium-gray color-almost-black-hover" aria-current="page" href="#">Careers</a>
+                </li>
+
+                <li class="py-4">
+                  <a class="color-medium-gray color-almost-black-hover" aria-current="page" href="#">About</a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="left-navbar d-flex gap-5 align-items-center justify-content-center">
+              <a class="color-medium-gray d-lg-flex d-none color-almost-black-hover" href="#">Login</a>
+              <button type="button"
+                class="px-3 d-lg-flex d-none color-medium-gray color-almost-black-hover bgC-transparent bgC-transparent-hover btn btn-outline-primary border-1px-solid-medium-gray border-1px-solid-almost-black-hover radius-10">Register</button>
+              <a class="toggleSideBar d-lg-none m-0" data-bs-toggle="offcanvas" href="#sidebar" role="button"
+                aria-controls="sidebar">
+                <img src="images/icon-menu.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="main-content w-100 h-100 d-flex justify-content-center align-items-center">
+      <div class="container w-100 h-100 d-flex justify-content-center align-items-center">
+        <div class="row w-100 justify-content-center align-items-center flex-lg-row flex-column-reverse">
+          <div class="col-lg-6 col-12 height-lg-35rem height-50">
+            <div class="  d-flex flex-column justify-content-between h-100 w-100 align-items-center gap-lg-100 gap-30">
+              <div
+                class="d-flex flex-column justify-content-lg-start justify-content-center align-items-lg-start align-items-center  w-100 gap-4">
+                <h1 class="fs-5rem fw-600 d-lg-block d-none">Make <br> remote work</h1>
+                <h1 class="fs-2rem fw-600 d-lg-none d-block">Make remote work</h1>
+                <p class="color-medium-gray">
+                  Get your team in sync, no matter your location.<br>
+                  Streamline processes, create team rituals, and <br>
+                  watch productivity soar.
+                </p>
+                <button
+                  class="btn border-1px-solid-almost-black py-2 width-10rem height-3rem rounded-4 px-3  bgC-almost-black bgC-transparent-hover color-almost-white color-almost-black-hover">
+                  Learn more
+                </button>
+              </div>
+              <div class="w-100 d-flex align-items-center flex-wrap justify-content-lg-start gap-4 justify-content-center">
+                <img src="images/client-databiz.svg" alt="">
+                <img src="images/client-audiophile.svg" alt="">
+                <img src="images/client-meet.svg" alt="">
+                <img src="images/client-maker.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 p-0 height-lg-35rem height-50">
+            <div class="hero-images d-flex justify-content-center align-items-center height-lg-100 height-20rem w-100 p-0 m-0">
+              <img class="height-100 width-xl-70  width-90   d-lg-flex d-none " src="images/image-hero-desktop.png" alt="">
+              <img class="h-100 w-100 d-lg-none d-flex " src="images/image-hero-mobile.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
