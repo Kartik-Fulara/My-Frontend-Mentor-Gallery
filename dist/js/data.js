@@ -183,4 +183,34 @@ const data = [{
         "text": "Junior",
     }],
     "description": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges."
-}];
+}, , {
+    "id": 7,
+    "name": "Rock, Paper, Scissors game",
+    "image": "/assets/images/rock-paper-scissors-game.jpg",
+    "link": "rock-paper-scissors-master/",
+    "tags": [
+        {
+            "name": "HTML",
+            "cssClass": "html",
+        },
+        {
+            "name": "CSS",
+            "cssClass": "css",
+        }, {
+            "name": "JS",
+            "cssClass": "js",
+        }, {
+            "name": "SCSS",
+            "cssClass": "scss",
+        }
+    ],
+    "levelCss": "border-1px-advanced",
+    "levelInfo": [{
+        "cssClass": "number bg-advanced",
+        "text": "4"
+    }, {
+        "cssClass": "text advanced",
+        "text": "Advanced",
+    }],
+    "description": "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself."
+},];

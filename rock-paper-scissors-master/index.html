@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="dist/css/style.min.css">
+  <link rel="stylesheet" href="dist/css/utils.min.css">
+  <link rel="stylesheet" href="dist/css/Main-Game.min.css">
+</head>
+
+<body>
+
+  <main class="main-container">
+    <section class="game-wrapper w-100 h-100 pos-relative">
+      <div class="logo-score-container ">
+        <div id="change-mode" class="logo-container">
+          <img class="basic block logo" src="images/logo.svg" alt="logo" />
+          <img class="bonus hidden logo" src="images/logo-bonus.svg" alt="bonus logo" />
+        </div>
+        <div class="score">
+          <div class="score-container h-100 w-100 flex justify-content-center align-items-center flex-column">
+            <div class="score-title">SCORE</div>
+            <div id="score" class="score-number ">0</div>
+          </div>
+        </div>
+      </div>
+
+      <div class=" main-game-wrapper justify-content-center align-items-center pos-relative">
+
+        <img src="images/bg-pentagon.svg" id="pentagon" class="pos-absolute desc hidden bonus" alt="triangle">
+        <img src="images/bg-triangle.svg" id="triangle" class="pos-absolute desc basic" alt="triangle">
+
+        <div id="result" class="pos-absolute matching-dashboard hidden">
+          <h1 id="result-text">YOU WIN</h1>
+          <button>Play Again</button>
+        </div>
+
+
+        <div data-choice="paper" class="pos-absolute paper-choose-container-color choose-container RPS">
+          <div class="w-80 h-80 choose-container-wrapper flex justify-content-center align-items-center">
+            <img src="images/icon-paper.svg" class=" h-50  " alt="" />
+          </div>
+        </div>
+
+        <div data-choice="rock" class="pos-absolute rock-choose-container-color choose-container RPS">
+          <div class="w-80 h-80 choose-container-wrapper flex justify-content-center align-items-center">
+            <img src="images/icon-rock.svg" class=" h-50  " alt="" />
+          </div>
+        </div>
+
+        <div data-choice="scissors" class="pos-absolute scissors-choose-container-color choose-container RPS">
+          <div class="w-80 h-80 choose-container-wrapper flex justify-content-center align-items-center">
+            <img src="images/icon-scissors.svg" class=" h-50  " alt="" />
+          </div>
+        </div>
+
+        <div data-choice="lizard"
+          class="pos-absolute lizard-choose-container-color choose-container hidden  RPSLS">
+          <div class="w-80 h-80 choose-container-wrapper flex justify-content-center align-items-center">
+            <img src="images/icon-lizard.svg" class=" h-50  " alt="" />
+          </div>
+        </div>
+
+        <div data-choice="spock" class="pos-absolute spock-choose-container-color choose-container hidden RPSLS">
+          <div class="w-80 h-80 choose-container-wrapper flex justify-content-center align-items-center">
+            <img src="images/icon-spock.svg" class=" h-50  " alt="" />
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+      <button type="button" id="rules-btn" class="rules-btn">
+        RULES
+      </button>
+    
+    <section id="rules" class="rules flex-column">
+      <!-- <div class="switch-button outside">
+        <input onchange="change()" id="online-offline" class="onine-offline switch-button-checkbox"
+          type="checkbox"></input>
+        <label class="switch-button-label offline" for="online-offline"><span
+            class="switch-button-label-span">Offline</span></label>
+      </div> -->
+
+      <div class="rules-container">
+        <div class="rules-header">
+          <span class="rule-title">
+            RULES
+          </span>
+          <span class="close-btn close-rules">
+            <img src="images/icon-close.svg" alt="close rules">
+          </span>
+        </div>
+        <div class="rules-content">
+          <img class="basic w-100 block" src="images/image-rules.svg" alt="">
+          <img class="bonus w-100 hidden" src="images/image-rules-bonus.svg" alt="">
+        </div>
+
+        <!-- <div class="switch-button inside">
+          <input onchange="change()" id="online-offline-1" class="online-offline switch-button-checkbox"
+            type="checkbox"></input>
+          <label class="switch-button-label offline" for="online-offline-1"><span
+              class="switch-button-label-span">Offline</span></label>
+        </div> -->
+
+        <div class="note">
+          <span class="note-title">
+            Note:
+          </span>
+          <span class="note-content">
+            Click on the logo to change the mode
+          </span>
+        </div>
+        <span class="close-btn mobile-close-rules">
+          <img src="images/icon-close.svg" alt="close rules">
+        </span>
+      </div>
+    </section>
+    </div>
+  </main>
+
+  <script src="dist/js/variables.js"></script>
+  <script src="dist/js/localStorageDB.js"></script>
+  <script src="dist/js/Games.js"></script>
+  <script src="dist/js/script.js"></script>
+</body>
+
+</html>
