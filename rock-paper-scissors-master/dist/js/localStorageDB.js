@@ -4,6 +4,5 @@ const setToLocalStorage = (key, value) => {
 
 const getFromLocalStorage = (key) => {
     let value = localStorage.getItem(key);
-    console.log(value);
-    return value;
+    return value !== null ? value : 0;
 };
